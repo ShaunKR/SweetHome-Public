@@ -1,0 +1,32 @@
+# ===== 공통 =====
+.DS_Store
+*.log
+
+# ===== backend =====
+backend/build/
+backend/.gradle/
+backend/out/
+
+# ===== frontend =====
+frontend/node_modules/
+frontend/dist/
+
+# ===== IDE =====
+.idea/
+.vscode/
+
+# ===== OS =====
+Thumbs.db
+
+.gradle/
+# Private settings and runtime data
+.env
+.env.*
+!.env.example
+**/application-local.*
+**/application-dev.*
+uploads/
+*.dump
+*.sqlite*
+*.pem
+*.key
